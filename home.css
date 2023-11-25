@@ -86,14 +86,25 @@ border: none;
 
     }
 
+    @media screen and (max-width: 980px){
+        .profile{
+           width: 40%;
+        }  
+        .profile-info p{
+            font-size: 1.4rem;
+        }        
+    }
     @media screen and (max-width: 770px){
         .profile{
            width: 50%;
-        }          
+        }  
+        .profile-info p{
+            font-size: 1.4rem;
+        }        
     }
 
     @media screen and (max-width: 540px){
         .profile{
-           width: 70%;
+           width: 80%;
         }          
     }
