@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish';
+    color: #333;
+  
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    font-size: 62.5%;
+   
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#F8FAFC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.dont{
+    font-size: 1.2rem;
+}
+.dont a{
+    text-decoration: none;
+    color: #625BF7;
+    font-weight: 400;
+}
+.signup-page{
+ 
+   max-width: 40%;
+ background-color: #FFF;
+
+ box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+ padding: 3rem 2rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ gap: 2rem;
+}
+
+.signup-page div{
+   display: flex;
+   flex-direction: column;
+   gap:0.4rem;
+}
+.signup-page h3{
+  font-size: 2.4rem;
+  font-weight: 700;
+  
+}
+.signup-page p{
+color: #757575;
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.title{
+    width: 34rem;
+}
+label{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:#333;
+    line-height: normal;
+}
+input{
+    height: 3.6rem;
+}
+
+button{
+display: flex;
+height: 5rem;
+padding: 0.9rem 1.4rem;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 0.6rem;
+border: none;
+background-image: linear-gradient( #625BF7, #463EEA);
+color:#FFF;
+
+font-size: 1.6rem;
+font-weight: 800;
+line-height: 1/8rem;
+}
+button a {
+    color: #FFFF;
+}
+
+
+@media screen and (max-width: 800px){
+    .signup-page{
+       max-width: 60%;
+
+}
+}
+
+
+@media screen and (max-width: 540px){
+    .signup-page{
+       max-width: 80%;
+      height:85% ;
+}
+}
+@media screen and (max-width: 340px){
+    
+}
+
